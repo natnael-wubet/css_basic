@@ -1,0 +1,121 @@
+.nav {
+    width: 98%;
+    margin: 0;
+    column-count: 6;
+    padding: 2% 1%;
+    box-shadow: 0 10px 10px 0 #22222255;
+    background-color: #2233ff ;
+}
+.nav .nav-body {
+    color: #fff;
+
+}ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+    background-color: #4c42d5;
+    position: sticky;
+    top:0;
+    box-shadow: 0 10px 10px 0 #22222266;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+/* Links will change color when hovered over */
+li a:hover {
+    background-color: #0400ff;
+}
+body {
+    margin: 0;
+}
+.home {
+    font-size: larger;
+    color: #fff;
+    background-color: #2233ff;
+    padding: 5% 3%;
+    background-image: url("./1.jpg");
+}
+.home_img {
+    width:70%;
+}
+.home .home_ {
+    width:25%;
+}
+._home {
+    background-color: #4c42d5c0;
+    width: 94%;
+    padding-left:70%;
+    border-radius: 15px;
+    font-size: larger;
+    color: #fff;
+    padding: 5% 3%;
+}
+.card {
+    border-radius: 15px;
+    box-shadow: 0 10px 10px 0 #22222244;
+    margin:1% 2%;
+    color: #000;
+    background-color: #fff;
+    
+  float: left;
+  width: 25%;
+}
+.card:hover {
+    
+    box-shadow: 0 10px 10px 0 #22222288;
+}
+.card .card-body {
+    padding: 2% 4%;
+    
+}
+.card .card-header {
+    padding: 2% 4%;
+    border-radius: 10px 10px 0 0;
+    background-color: #a7a7a722;
+}
+.card .card-footer {
+    padding: 2% 4%;
+    bottom: 0;
+    position: sticky;
+    border-radius: 0 0  10px 10px;
+    background-color: #ededed;
+}
+.pations {
+    background-color: #fff;
+    padding: 5%;
+    color: #4c42d5c0;
+    box-shadow: 10px 0px 0px 0px #222;
+}
+.pations .pations-inner {
+
+}
+.contact {
+
+    content: "";
+    display: table;
+    clear: both;
+    background-color: #4c42d5;
+    width: 94%;
+    padding-left:70%;
+    font-size: larger;
+    color: #fff;
+    bottom: 0;
+}
+.contact .inner {
+    
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
